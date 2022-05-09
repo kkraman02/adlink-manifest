@@ -10,7 +10,7 @@
   <remote fetch="https://github.com/intel" name="iotg-yocto-ese-bsp" />
   <remote fetch="https://github.com/intel" name="iotg-yocto-ese-main" />
 
-  <project name="poky" path="poky" remote="yocto" revision="d8584ea9d7c5207b6c08abbbedbd1b7f64a4fe4b	"/>
+  <project name="poky" path="poky" remote="yocto" revision="d8584ea9d7c5207b6c08abbbedbd1b7f64a4fe4b" />
   <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="24f4e6e8d0556540e882e6f0933d1247f64d0666"/>
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="d8584ea9d7c5207b6c08abbbedbd1b7f64a4fe4b"/>
 
