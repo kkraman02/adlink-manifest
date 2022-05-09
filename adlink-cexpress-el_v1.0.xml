@@ -25,7 +25,7 @@
   <project name="meta-clang" path="meta-clang" remote="clang" revision="2207df98559afc19d6a0243027bbac18980fc764"/>
   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="d03d2d78954ee20374a625ff70a4a1e613caf326"/>
 
-  <project name="meta-intel-iot-bsp" remote="iotg-yocto-ese-bsp"  path="meta-intel-iot-bsp" revision="a24c96aff2f7bc2614578d9a84a7f0d91a7c1dbd" />
-  <project name="meta-intel-iot-main" remote="iotg-yocto-ese-main" path="meta-intel-iot-main" revision="07163bdb6d7f703db01c413665e4d2b83549c89b" />
+  <project name="iotg-yocto-ese-bsp" remote="iotg-yocto-ese-bsp"  path="meta-intel-iot-bsp" revision="a24c96aff2f7bc2614578d9a84a7f0d91a7c1dbd" />
+  <project name="iotg-yocto-ese-main" remote="iotg-yocto-ese-main" path="meta-intel-iot-main" revision="07163bdb6d7f703db01c413665e4d2b83549c89b" />
 
 </manifest>
