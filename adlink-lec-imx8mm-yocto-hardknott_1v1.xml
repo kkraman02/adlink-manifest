@@ -39,7 +39,7 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="7f719ef40896b6c78893add8485fda995b00d51d" upstream="hardknott"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="269265c00091fa65f93de6cad32bf24f1e7f72a3" upstream="hardknott"/>
   
-    <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="eedab767e730e6a41ce5b7af0632941f2392ac35" upstream="hardknott-imx8mm">
+    <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="21f021bf10fe7fa05f2d8d11d1024a546d02435b" upstream="hardknott-imx8mm">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
   <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="refs/heads/main"/>
