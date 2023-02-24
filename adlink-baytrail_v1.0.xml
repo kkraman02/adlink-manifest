@@ -7,8 +7,6 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/ADLINK" name="adlink"/>
   <remote fetch="https://github.com/kraj" name="clang" />
-  <remote fetch="https://github.com/intel" name="iotg-yocto-ese-bsp" />
-  <remote fetch="https://github.com/intel" name="iotg-yocto-ese-main" />
 
   <project name="poky" path="poky" remote="yocto" revision="1cefabe0f0a2dd2ca8b6eb83e8e0824b72da941a" />
   <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="786d3aa313e31a718acc9611ba3adb60573ec458"/>
