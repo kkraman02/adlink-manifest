@@ -6,7 +6,6 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/ADLINK" name="adlink"/>
-  <remote fetch="https://github.com/kraj" name="clang" />
 
   <project name="poky" path="poky" remote="yocto" revision="1cefabe0f0a2dd2ca8b6eb83e8e0824b72da941a" />
   <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="786d3aa313e31a718acc9611ba3adb60573ec458"/>
@@ -18,5 +17,5 @@
   </project>
   <project name="meta-adlink-demo" path="meta-adlink-demo" remote="adlink" revision="734ced9bdb9562fab9ac16fb58987cb26bbe65bc"/>	
 
-  <project name="meta-security" path="meta-security" remote="yocto" revision="c40e1e84da9624b9096a463dbed3b301c01c268e"/>
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="a517e15529980f8401b25c99a2d7720ac2d8baae"/>
 </manifest>
