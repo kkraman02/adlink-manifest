@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://gitlab.com/mediatek/aiot/rity" name="rity" />
+	<remote fetch="https://git.yoctoproject.org" name="yocto" />
+	<remote fetch="https://git.openembedded.org" name="oe" />
+	<remote fetch="https://github.com/" name="github" />
+	<remote fetch="https://github.com/ADLINK" name="adlink"/>
+
+	<default revision="kirkstone" />
+	<project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="refs/tags/2v9">
+		<copyfile dest="setup_adlink_env.sh" src="setup_adlink_env.sh"/>
+	</project>
+	<project name="meta-rity.git" path="src/meta-rity" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-bsp.git" path="src/meta-mediatek-bsp" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-tsn.git" path="src/meta-mediatek-tsn" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-mediatek-demo.git" path="src/meta-mediatek-demo" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-nn.git" path="src/meta-nn" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="meta-stress-test.git" path="src/meta-stress-test" remote="rity" revision="refs/tags/rity-kirkstone-v22.2" />
+	<project name="poky.git" path="src/poky" remote="yocto" revision="f98db02718944865811d3daf6404ab23bbb655b8" />
+	<project name="meta-arm.git" path="src/meta-arm" remote="yocto" revision="67578fcfcd8ee8efcaef67ed7db1dfd55105872e" />
+	<project name="meta-openembedded" path="src/meta-openembedded" remote="oe" revision="50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79" />
+	<project name="meta-tensorflow.git" path="src/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" />
+	<project name="meta-qt5/meta-qt5" path="src/meta-qt5" remote="github" revision="44d44933200287f7d17cf6981af4b4a0961c308d" />
+	<project name="kraj/meta-clang.git" path="src/meta-clang" remote="github" revision="013b5eeb580bc13b156aaf77d0c1175f75b89671" />
+</manifest>
