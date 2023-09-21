@@ -20,4 +20,5 @@
   <project name="iotg-yocto-ese-bsp" path="iotg-yocto-ese-bsp" remote="intel" revision="bf342b713b139a9310d393623a930ed78156ccfb"/>	
  
    <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="a517e15529980f8401b25c99a2d7720ac2d8baae"/>
+    <project name="meta-security" path="meta-security" remote="yocto" revision="06c240c3c235fa06fe724e278d53463ac67cc26b"/>  
 </manifest>
