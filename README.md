@@ -1,2 +1,5 @@
-# adlink-manifest
-This project will contain manifest for adlink bsp releases
+## Supported Hardware
+
+1. LEC-IMX8MP
+
+2. LEC-IMX8MM
