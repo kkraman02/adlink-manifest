@@ -1,2 +1,5 @@
-# adlink-manifest
-adlink lec imx yocto zeus release manifest files
+## Supported Hardware
+
+1. LEC-IMX8MP
+
+2. LEC-IMX8M
