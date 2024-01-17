@@ -25,6 +25,6 @@
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="2.0" />
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
-  <project name="meta-adlink-qualcomm" path="layers/meta-adlink-qualcomm" remote="adlink" revision="b322c84915c157cc3bab495ff452fdef16cabf49" upstream="kirkstone"/>
+  <project name="meta-adlink-qualcomm" path="meta-adlink-qualcomm" remote="adlink" revision="b322c84915c157cc3bab495ff452fdef16cabf49" upstream="kirkstone"/>
 </manifest>
 
