@@ -27,6 +27,5 @@
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="meta-adlink-qualcomm" path="meta-adlink-qualcomm" remote="adlink" revision="b322c84915c157cc3bab495ff452fdef16cabf49" upstream="kirkstone"/>
   <linkfile dest="adlink-rb5n-setup-release.sh" src="conf/adlink-conf/adlink-rb5n-setup-release.sh"/>
-  </project>  
 </manifest>
 
