@@ -13,7 +13,7 @@
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="64e8ccb47e11fc021a2a679f2e05d849b7518461"/>
 
   <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="6db7283475e1f613d7373d80b14a4759ee3a4266"/>
-  <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="aefb8762576ba479475fb65dd8af2a3a510f63ce">
+  <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="4878c0dc59e1abae571a15f51512555bfe4e2dd1">
     <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
   </project>
   <project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="bf5bf8e3022a75aed4d0592e15a3f832c5d35ae6"/>	
