@@ -12,7 +12,7 @@
   <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="82c75b466e55d7dca7a2364986ecb704cf63d141"/>
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="64e8ccb47e11fc021a2a679f2e05d849b7518461"/>
 
-  <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="9a7aa013685c19d76d97d8615c218b7156539844"/>
+  <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="6db7283475e1f613d7373d80b14a4759ee3a4266"/>
   <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="aefb8762576ba479475fb65dd8af2a3a510f63ce">
     <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
   </project>
