@@ -16,7 +16,7 @@
 <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="5230089ddb7c5ecfcfc80475c70d09b415b71018" upstream="kirkstone"/>
 <project name="meta-amd" path="meta-amd" remote="amd" revision="9a78606dc57c1f68c17ab7ce537857ff7b6338af" upstream="kirkstone"/>
 <project name="meta-dpdk" path="meta-dpdk" remote="dpdk" revision="12cd9701455f17ff86681dba86e5c10f7b0deb7c" upstream="kirkstone"/>
-<project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="43ba6d6152722712908d3b50c2fe18719300e6e8" upstream="kirkstone">
+<project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="e073e1497dbceae97279a4fa40001db064bf68f2" upstream="kirkstone">
     <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
 </project>       
 </manifest>
