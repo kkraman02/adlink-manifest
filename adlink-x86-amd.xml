@@ -13,7 +13,7 @@
 
 <project name="poky" remote="yocto" revision="b3e316e8486e5462c3c71a9c8248779a5c253385" upstream="kirkstone"/>
 <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="ce9c0d76171ce9d07e4bcb702b750416b265562a" upstream="kirkstone"/>
-<project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="6f904cf791a5cd94641061a1b2364fb9e04bc35a" upstream="kirkstone"/>
+<project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="1837cd65d78110917dbed8fed39ed4d655746868" upstream="kirkstone"/>
 <project name="meta-amd" path="meta-amd" remote="amd" revision="9a78606dc57c1f68c17ab7ce537857ff7b6338af" upstream="kirkstone"/>
 <project name="meta-dpdk" path="meta-dpdk" remote="dpdk" revision="12cd9701455f17ff86681dba86e5c10f7b0deb7c" upstream="kirkstone"/>
 <project name="meta-adlink-amd" path="meta-adlink-amd" remote="adlink" revision="47d500445ad9ee24ee664d75bc03e15e3c04812f" upstream="kirkstone">
