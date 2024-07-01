@@ -10,10 +10,10 @@
   
   <project name="poky" path="poky" remote="yocto" revision="30656ea54de82cabb818f07af711b96211421c95" />
   <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="82c75b466e55d7dca7a2364986ecb704cf63d141"/>
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="64e8ccb47e11fc021a2a679f2e05d849b7518461"/>
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="bb7c7b0f448ab6541ab42a316dfeff1f7726252f"/>
 
   <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="6f904cf791a5cd94641061a1b2364fb9e04bc35a"/>
-  <project name="meta-adlink-x86-64bit" path="meta-adlink-x86-64bit" remote="adlink" revision="bb7c7b0f448ab6541ab42a316dfeff1f7726252f">
+  <project name="meta-adlink-x86-64bit" path="meta-adlink-x86-64bit" remote="adlink" revision="3af161a56ab8cda82a9df189d10475e1bf500b65">
     <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
   </project>
   <project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="bf5bf8e3022a75aed4d0592e15a3f832c5d35ae6"/>	
