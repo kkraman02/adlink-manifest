@@ -14,6 +14,7 @@
 
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
+  <remote name="adlink" fetch="https://github.com/ADLINK"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea" upstream="scarthgap"/>
@@ -42,8 +43,8 @@
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="scarthgap-6.6.23-2.0.0" />
 
   <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="8508538112392574083b9418f748820320985416" upstream="mickledore"/>
-  <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="a6d74e430093f9b3742c0c921dbe6a170283c71e" upstream="scarthgap"/>
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="0e43fd4cc3b831ec7561f35dbcd385bdafe220f8"  upstream="mickledore">
+  <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="f7d75621fc83fefb4c7698199793ea1c4f26926c" upstream="scarthgap"/>
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="fea0a9a20b86d54a654f3ccd9c05c89cea241b7e"  upstream="scarthgap">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
 </manifest>
