@@ -42,7 +42,7 @@
   <project name="meta-matter" remote="imx" path="sources/meta-matter" revision="imx_matter_2024_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="scarthgap-6.6.23-2.0.0" />
 
-  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="8508538112392574083b9418f748820320985416" upstream="mickledore"/>
+  <project name="meta-adlink-sema" path="sources/meta-adlink-sema" remote="adlink" revision="108d32de568401e2fd57b4206e9b2ed3aef59754" upstream="scarthgap"/>
   <project name="meta-adlink-demo" path="sources/meta-adlink-demo" remote="adlink" revision="f7d75621fc83fefb4c7698199793ea1c4f26926c" upstream="scarthgap"/>
   <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="fea0a9a20b86d54a654f3ccd9c05c89cea241b7e"  upstream="scarthgap">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
