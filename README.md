@@ -1,20 +1,36 @@
-## adlink-manifest
+# Supported Modules
 
-This is the repo which contains all the manifest of Adlink products to build the Yocto BSP.
+## 1. cExpress
+- cExpress-BT2
+- cExpress-SL
+- cExpress-KL
+- cExpress-EL
+- cExpress-TL
+- cExpress-BW
+- cExpress-AL
+- cExpress-WL
+- cExpress-AR
+- cExpress-ADN
 
-- X-86 Platform(Intel and AMD)
+## 2. Express
+- Express-SL/SLE
+- Express-BD7
+- Express-KL
+- Express-CF/CFE
+- Express-DN7
+- Express-SL2/KL2
+- Express-BD74
+- Express-CFR
+- Express-ADP/RLP
+- Express-ID7
+- Express-TL
 
-- ARM Platform(NXP, MediaTek and Qualcomm)
+## 3. COM-HPC
+- COM-HPC-sIDH
+- COM-HPC-cADP
+- COM-HPC-cRLS
 
-## Available Branches
-
-1. [lec-imx-yocto-kirkstone](https://github.com/ADLINK/adlink-manifest/tree/lec-imx-yocto-kirkstone)
-2. [lec-imx-yocto-hardknott](https://github.com/ADLINK/adlink-manifest/tree/lec-imx-yocto-hardknott)
-3. [lec-imx-yocto-zeus](https://github.com/ADLINK/adlink-manifest/tree/lec-imx-yocto-zeus)
-4. [intel-yocto-kirkstone](https://github.com/ADLINK/adlink-manifest/tree/intel-yocto-kirkstone)
-5. [intel-yocto-hardknott](https://github.com/ADLINK/adlink-manifest/tree/intel-yocto-hardknott)
-6. [intel-yocto-dunfell](https://github.com/ADLINK/adlink-manifest/tree/intel-yocto-dunfell)
-7. [intel-yocto-zeus](https://github.com/ADLINK/adlink-manifest/tree/intel-yocto-zeus)
-8. [intel-yocto-sumo](https://github.com/ADLINK/adlink-manifest/tree/intel-yocto-sumo)
-9. [rity-kirkstone-v22.2](https://github.com/ADLINK/adlink-manifest/tree/rity-kirkstone-v22.2)
-10. [rity-kirkstone-v23.1](https://github.com/ADLINK/adlink-manifest/tree/rity-kirkstone-v23.1)
+## 4. SMARC
+- LEC-EL
+- LEC-AL
+- LEC-ALN    
