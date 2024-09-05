@@ -1,3 +1,3 @@
 ## Supported Modules
 
-- LEC-MTL-I1200
+- LEC-MTK-I1200
