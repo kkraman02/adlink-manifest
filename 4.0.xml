@@ -4,9 +4,10 @@
         <remote fetch="https://git.yoctoproject.org" name="yocto" />
         <remote fetch="https://git.openembedded.org" name="oe" />
         <remote fetch="https://github.com/" name="github" />
+	<remote fetch="https://github.com/ADLINK" name="adlink"/>
 
         <default revision="kirkstone" />
-        <project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="e70987f9091124430e036be61d3208916558a588"  upstream="rity-scarthgap-v23.2">
+        <project name="meta-adlink-mtk.git" path="src/meta-adlink-mtk" remote="adlink" revision="980a2ce27f3b5d51a5b874b4208ed3bb0e6aa0c5"  upstream="rity-kirkstone-v23.2">
                 <copyfile dest="setup_adlink_env.sh" src="setup_adlink_env.sh"/>
         </project>        
 
