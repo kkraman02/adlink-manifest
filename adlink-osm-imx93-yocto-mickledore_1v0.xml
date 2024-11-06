@@ -38,7 +38,7 @@
   </project>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
   
-  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="6df8c196035f51f0bcd9936a7bb99b54a2f2e201"  upstream="mickledore">
+  <project name="meta-adlink-nxp" path="sources/meta-adlink-nxp" remote="adlink" revision="cbf2377ad0f1604d26ceda9929cd38454157ed37"  upstream="mickledore">
     <linkfile dest="adlink-imx-setup-release.sh" src="conf/adlink-conf/adlink-imx-setup-release.sh"/>
   </project>
   
