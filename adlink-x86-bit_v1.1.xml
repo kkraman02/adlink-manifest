@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <default sync-j="2"/>
-
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/ADLINK" name="adlink"/>
-  <remote fetch="https://github.com/intel" name="intel"/>  
-  
-  <project name="poky" path="poky" remote="yocto" revision="30656ea54de82cabb818f07af711b96211421c95" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="82c75b466e55d7dca7a2364986ecb704cf63d141"/>
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="bb7c7b0f448ab6541ab42a316dfeff1f7726252f"/>
-
-  <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="6f904cf791a5cd94641061a1b2364fb9e04bc35a"/>
-  <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="559bfdce9604862f327363b99e018dc49093737b">
-    <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
-  </project>
-  <project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="bf5bf8e3022a75aed4d0592e15a3f832c5d35ae6"/>	
-  <project name="iotg-yocto-ese-bsp" path="iotg-yocto-ese-bsp" remote="intel" revision="bf342b713b139a9310d393623a930ed78156ccfb"/>	
  
-   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="a517e15529980f8401b25c99a2d7720ac2d8baae"/>
-    <project name="meta-security" path="meta-security" remote="yocto" revision="06c240c3c235fa06fe724e278d53463ac67cc26b"/>  
+  <default sync-j="2"/>
+ 
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+<remote fetch="https://github.com/openembedded" name="oe"/>
+<remote fetch="https://github.com/ADLINK" name="adlink"/>
+<remote fetch="https://github.com/intel" name="intel"/>
+ 
+  <project name="poky" path="poky" remote="yocto" revision="47cb7bfa667b6dad7c44ba62b0689ea303a19dce" />
+<project name="meta-openembedded" path="meta-openembedded" remote="oe" revision="de8681b4a2a101b99dd2c48d89a7de2ccd9a961f"/>
+<project name="meta-intel" path="meta-intel" remote="yocto" revision="dc0948200594dacece4da91f4c501e9a9fb0394f"/>
+ 
+  <project name="meta-adlink-sema" path="meta-adlink-sema" remote="adlink" revision="1837cd65d78110917dbed8fed39ed4d655746868"/>
+<project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="22e6b26cae725b1bc216cd7bff923a10dea289cf">
+<linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
+</project>
+<project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="5a847c67d4bf358e49a2be07585ed812f1d1de92"/>
+<project name="iotg-yocto-ese-bsp" path="iotg-yocto-ese-bsp" remote="intel" revision="ee6c471d30cc3250b04ca371c561819000f14fd1"/>
+ 
+   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="b5a1645250c17fb657b7f10166f1c665ce192aaf"/>
+<project name="meta-security" path="meta-security" remote="yocto" revision="b9cf9cd639bc8d1b4828eb0bd012b71486d35176"/>
 </manifest>
+ 
