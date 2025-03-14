@@ -16,7 +16,7 @@
 <project name="meta-adlink-intel" path="meta-adlink-intel" remote="adlink" revision="22e6b26cae725b1bc216cd7bff923a10dea289cf">
 <linkfile dest="adlink-intel-setup-release.sh" src="scripts/adlink-intel-setup-release.sh"/>
 </project>
-<project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="5a847c67d4bf358e49a2be07585ed812f1d1de92"/>
+<project name="iotg-yocto-ese-main" path="iotg-yocto-ese-main" remote="intel" revision="bf5bf8e3022a75aed4d0592e15a3f832c5d35ae6"/>
 <project name="iotg-yocto-ese-bsp" path="iotg-yocto-ese-bsp" remote="intel" revision="ee6c471d30cc3250b04ca371c561819000f14fd1"/>
  
    <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="b5a1645250c17fb657b7f10166f1c665ce192aaf"/>
